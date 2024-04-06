@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abracadabra</title>
+    <style>
+      body {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 70vh;
+        background-image: url("assets/fondo.jpg");
+        background-size: cover;
+        background-position: top;
+        color: white;
+      }
+      .galeria {
+        display: flex;
+        width: 75%;
+        margin: auto;
+      }
+      img {
+        width: 100%;
+      }
+      h1 {
+        text-shadow: 1px 1px 7px black;
+      }
+      .sombrero {
+        opacity: 0.5;
+      }
+      .sombrero:hover {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Título -->
+    <h1>&#128048; Abracadabra &#128048;</h1>
+
+    <!-- Galería de sombreros -->
+    <div class="galeria">
+      <!-- Sombrero 1 -->
+      <div class="sombrero">
+        <a href="/abracadabra/conejo/1">
+          <img src="assets/sombrero.png" alt="Cinque Terre" />
+        </a>
+        <h2>1</h2>
+      </div>
+
+      <!-- Sombrero 2 -->
+      <div class="sombrero">
+        <a href="/abracadabra/conejo/2">
+          <img src="assets/sombrero.png" alt="Forest" />
+        </a>
+        <h2>2</h2>
+      </div>
+
+      <!-- Sombrero 3 -->
+      <div class="sombrero">
+        <a href="/abracadabra/conejo/3">
+          <img src="assets/sombrero.png" alt="Northern Lights" />
+        </a>
+        <h2>3</h2>
+      </div>
+
+      <!-- Sombrero 4 -->
+      <div class="sombrero">
+        <a href="/abracadabra/conejo/4">
+          <img src="assets/sombrero.png" alt="Mountains" />
+        </a>
+        <h2>4</h2>
+      </div>
+    </div>
+  </body>
+</html>
